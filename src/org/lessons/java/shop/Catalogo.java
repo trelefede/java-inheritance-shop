@@ -8,7 +8,7 @@ public class Catalogo {
 
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("Inserisci un nuovo prodotto al catalogo.\nInserisci il nome: ");
+		System.out.println("Inserimento nuovo prodotto a catalogo.\nInserisci il nome: ");
 		String nome = sc.nextLine();
 
 		System.out.println("Inserisci la marca: ");
@@ -22,6 +22,7 @@ public class Catalogo {
 
 		System.out.println(
 				"A quale categoria appartiene? Premi 'S' per smartphone, 'T' per televisore e 'C' per cuffie:");
+		sc.nextLine();
 
 		// smartphone
 		if (sc.nextLine().equalsIgnoreCase("S")) {
